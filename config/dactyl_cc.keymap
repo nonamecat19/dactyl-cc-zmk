@@ -144,7 +144,7 @@
 &kp LSHFT     &kp Z         &kp X         &kp C         &kp V         &kp B         &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH      &kp RSHFT
               &none         &none         &none         &none                                     &none         &none         &none         &none
                                                         &none         &none         &none         &none
-                                                                      &none         &lt KSET ESC
+                                                                      &lt KSET ESC  &lt KSET ESC
                                           &kp LCTRL     &mo KLOW      &kp SPACE     &kp BSPC      &mo KHIGH     &kp RALT
                      >;
               };
