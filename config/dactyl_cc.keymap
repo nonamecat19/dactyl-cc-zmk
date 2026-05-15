@@ -131,7 +131,6 @@
                       , <&macro_release &kp LSHIFT>;
               };
           };
-       };
 
        keymap {
               compatible = "zmk,keymap";
