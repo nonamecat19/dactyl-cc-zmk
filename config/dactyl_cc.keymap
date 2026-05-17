@@ -167,9 +167,9 @@
                      display-name = "Higher";
                      bindings = <
 &none         &none          &none              &none               &none              &none           &none       &none                 &none              &none               &none              &none
-&kp TAB       &kp QUOTE      &kp LS(SQT)        &kp CARET           &kp LS(FSLH)       &kp GRAVE       &kp ESCAPE  &kp RBKT              &kp LS(DOT)        &kp KP_EQUAL        &kp LS(COMMA)      &kp LBKT
-&kp LCTRL     &kp EXCL       &kp AT             &kp HASH            &kp DLLR           &kp PRCNT       &none       &kp LS(RBKT)          &kp RPAR           &kp LS(SEMI)        &kp LPAR           &kp LS(LBKT)
-&kp LSHFT     &none          &kp LS(GRAVE)      &kp LS(BSLH)        &kp AMPS           &none           &kp ENTER   &kp LS(MINUS)         &kp LS(EQUAL)      &kp MINUS           &kp ASTRK          &kp KP_SLASH
+&kp TAB       &kp SQT        &kp DQT             &kp CARET           &kp QMARK           &kp GRAVE       &kp ESCAPE  &kp RBKT              &kp GT             &kp KP_EQUAL        &kp LT               &kp LBKT
+&kp LCTRL     &kp EXCL       &kp AT             &kp HASH            &kp DLLR           &kp PRCNT       &none       &kp RBRC              &kp RPAR           &kp COLON           &kp LPAR           &kp LBRC
+&kp LSHFT     &none          &kp TILDE          &kp PIPE            &kp AMPS           &none           &kp ENTER   &kp UNDERSCORE        &kp PLUS           &kp MINUS           &kp ASTRK          &kp KP_SLASH
               &none          &none              &none               &none                                          &none                 &none              &none               &none
                                                                     &none              &none           &none       &none
                                                                                        &none           &none
