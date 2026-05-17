@@ -140,7 +140,7 @@
                      bindings = <
 &kp EQUAL     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5        &kp N6        &kp N7        &kp N8        &kp N9        &kp N0        &none
 &kp TAB       &kp Q         &kp W         &kp E         &kp R         &kp T         &kp Y         &kp U         &kp I         &kp O         &kp P         &kp ESC
-&kp CAPS      &kp A         &kp S         &kp D         &kp F         &kp G         &kp H         &kp J         &kp K         &kp L         &kp SEMI      &kp SQT
+&kp LGUI      &kp A         &kp S         &kp D         &kp F         &kp G         &kp H         &kp J         &kp K         &kp L         &kp SEMI      &kp SQT
 &kp LSHFT     &kp Z         &kp X         &kp C         &kp V         &kp B         &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH      &kp ENTER
               &none         &none         &none         &none                                     &none         &none         &none         &none
                                                         &none         &none         &none         &none
@@ -166,14 +166,14 @@
               higher_layer {
                      display-name = "Higher";
                      bindings = <
-&none         &none          &none              &none               &none              &none           &none       &none                 &none              &none               &none              &none
-&kp TAB       &kp SQT        &kp DQT             &kp CARET           &kp QMARK           &kp GRAVE       &kp ESCAPE  &kp RBKT              &kp GT             &kp KP_EQUAL        &kp LT               &kp LBKT
-&kp LCTRL     &kp EXCL       &kp AT             &kp HASH            &kp DLLR           &kp PRCNT       &none       &kp RBRC              &kp RPAR           &kp COLON           &kp LPAR           &kp LBRC
-&kp LSHFT     &none          &kp TILDE          &kp PIPE            &kp AMPS           &none           &kp ENTER   &kp UNDERSCORE        &kp PLUS           &kp MINUS           &kp ASTRK          &kp KP_SLASH
-              &none          &none              &none               &none                                          &none                 &none              &none               &none
-                                                                    &none              &none           &none       &none
+&none         &none          &none              &none               &none              &none           &none        &none         &none          &none       &none          &none
+&kp TAB       &kp SQT        &kp DQT            &kp CARET           &kp QMARK          &kp GRAVE       &kp LBKT     &kp LT        &kp KP_EQUAL   &kp GT      &kp RBKT       &kp ESC
+&kp LGUI      &kp EXCL       &kp AT             &kp HASH            &kp DLLR           &kp PRCNT       &kp LBRC     &kp LPAR      &kp COLON      &kp RPAR    &kp RBRC       &none
+&kp LSHFT     &none          &kp TILDE          &kp PIPE            &kp AMPS           &none           &kp KP_SLASH &kp ASTRK     &kp MINUS      &kp PLUS    &kp UNDERSCORE &kp ENTER
+              &none          &none              &none               &none                                           &none         &none          &none       &none
+                                                                    &none              &none           &none        &none
                                                                                        &none           &none
-                                                &kp LCTRL           &mo KLOW           &kp SPACE       &kp BSPC    &mo KHIGH             &kp RALT
+                                                &kp LCTRL           &mo KLOW           &kp SPACE       &kp BSPC     &mo KHIGH     &kp RALT
                      >;
               };
 
